@@ -1,0 +1,38 @@
+.cart{
+    &__hat{
+        display: flex;
+        justify-content:space-between;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        border-block-end: solid 2px  rgba(0, 0, 0, 0.197);
+    }
+    &__title{
+        display: flex;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    &__clean{
+        display: flex;
+        font-size: 20px;
+        align-items: flex-end;
+        gap: 20px;
+        
+    }
+
+    &__main{
+         display: flex;
+         justify-content: center ;
+         gap:40px;
+         padding-top: 25px;
+        //  align-items:center;
+    }
+
+    &__items{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+}
